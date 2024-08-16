@@ -8,7 +8,7 @@ import requests
 
 # don't change this constant: Rootname
 ROOT_NAME = "Shilpi"
-MODEL_NAME = "full_transcript_mlp_best_model"
+MODEL_NAME = "full_transcript_mlp_best_model_one"
 MAPPER = {
     "0": "Normal",
     "1": "Cognitive Dementia"
