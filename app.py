@@ -28,7 +28,7 @@ CSS_STYLE = """
 LOGIN_IMAGE = "https://kffhealthnews.org/wp-content/uploads/sites/2/2020/02/Dementia-resized.png?w=1024"
 SIGNIN_IMAGE = "https://beconnected.esafety.gov.au/pluginfile.php/82020/mod_resource/content/1/t35_c4_a2_p1.png"
 # you have to change with the deployment
-LOGOUT_URL = "https://adhdhistory-u2cko4dyvncvkr7whryxg8.streamlit.app/"
+LOGOUT_URL = "https://azraprojectalzheimer-s-prediction-aukg4vkupcbe3etpn6fyb3.streamlit.app/"
 
 # set css styles
 st.markdown(CSS_STYLE, unsafe_allow_html=True)
@@ -37,7 +37,7 @@ st.markdown(CSS_STYLE, unsafe_allow_html=True)
 client_id = st.secrets["CLIENT_ID"]
 client_secret = st.secrets["CLIENT_SECRET"]
 # you have to change with the deployment
-redirect_uri = "https://adhdhistory-u2cko4dyvncvkr7whryxg8.streamlit.app"
+redirect_uri = "https://azraprojectalzheimer-s-prediction-aukg4vkupcbe3etpn6fyb3.streamlit.app"
 
 # OAuth endpoints
 authorization_base_url = "https://accounts.google.com/o/oauth2/auth"
