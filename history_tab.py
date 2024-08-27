@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 
 
-ROOT_NAME = "Shilpi"
+ROOT_NAME = "AI"
 
 
 def get_feedbacks(data):
